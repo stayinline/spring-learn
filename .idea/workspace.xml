@@ -2,8 +2,21 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9ccf5500-961b-413c-9057-b5084e08e42c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/ioc-overview/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bean/bean.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bean/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bean/src/main/java/com/spring/learn/bean/definition/BeanDefinitionDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bean/src/main/java/com/spring/learn/bean/definition/BeanDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ioc-overview/src/main/java/com/spring/learn/ioc/container/BeanDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ioc-overview/src/main/java/com/spring/learn/ioc/container/BeanDemo2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ioc-overview/src/main/java/com/spring/learn/ioc/container/IocContainerByApplicationContext.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ioc-overview/src/main/java/com/spring/learn/ioc/container/IocContainerByBeanFeactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ioc-overview/src/main/resources/META-INF/bean-config.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -13,6 +26,16 @@
   </component>
   <component name="CodeStyleSettingsInfer">
     <option name="done" value="true" />
+  </component>
+  <component name="FavoritesManager">
+    <favorites_list name="spring-learn" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -44,6 +67,8 @@
   </component>
   <component name="ProjectId" id="280Y4oZY5nJktUY0vDCq52dvJhe" />
   <component name="PropertiesComponent">
+    <property name="GO_FMT" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="go.import.settings.migrated" value="true" />
@@ -68,6 +93,40 @@
       </list>
     </option>
   </component>
+  <component name="RunManager" selected="Application.IocContainerByApplicationContext">
+    <configuration name="IocContainerByApplicationContext" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.spring.learn.ioc.container.IocContainerByApplicationContext" />
+      <module name="ioc-overview" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.spring.learn.ioc.container.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="IocContainerByBeanFeactory" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.spring.learn.ioc.container.IocContainerByBeanFeactory" />
+      <module name="ioc-overview" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.spring.learn.ioc.container.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.IocContainerByApplicationContext" />
+        <item itemvalue="Application.IocContainerByBeanFeactory" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -78,8 +137,16 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1650354781469</updated>
-      <workItem from="1650354782732" duration="1374000" />
+      <workItem from="1650354782732" duration="14217000" />
     </task>
+    <task id="LOCAL-00001" summary="init spring-learn">
+      <created>1650356299616</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1650356299616</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -95,5 +162,9 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="init spring-learn" />
+    <option name="LAST_COMMIT_MESSAGE" value="init spring-learn" />
   </component>
 </project>
