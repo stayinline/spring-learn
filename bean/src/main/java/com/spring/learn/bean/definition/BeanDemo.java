@@ -18,4 +18,17 @@ public class BeanDemo {
     public void setName(String name) {
         this.name = name;
     }
+
+    @Override
+    public String toString() {
+        return "BeanDemo{" +
+                "name='" + name + '\'' +
+                '}';
+    }
+
+    public static BeanDemo newInstance() {
+        BeanDemo beanDemo = new BeanDemo();
+        beanDemo.setName("张三");
+        return beanDemo;
+    }
 }
