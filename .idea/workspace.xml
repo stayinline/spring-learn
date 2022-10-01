@@ -1,16 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="9ccf5500-961b-413c-9057-b5084e08e42c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/bean/src/main/java/com/spring/learn/bean/definition/BeanGCDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bean/src/main/java/com/spring/learn/bean/definition/BeanInitDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bean/src/main/java/com/spring/learn/bean/definition/BeanInstance.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bean/src/main/java/com/spring/learn/bean/definition/factory/BeanDemoFactoryBean.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bean/src/main/java/com/spring/learn/bean/definition/factory/BeanDemoFactoryInterface.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bean/src/main/java/com/spring/learn/bean/definition/factory/BeanDemoFeactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bean/src/main/resources/META-INF/bean-instation.xml" afterDir="false" />
+    <list default="true" id="9ccf5500-961b-413c-9057-b5084e08e42c" name="Default Changelist" comment="spring-learn bean 实例、初始化、销毁、回收">
+      <change afterPath="$PROJECT_DIR$/dependency-injection/dependency-injection.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dependency-injection/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dependency-injection/src/main/java/com/spring/learn/ioc/injection/XmlSetterInjectionDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dependency-injection/src/main/resources/META-INFO/dependency-setter-injection.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dependency-lockup/dependency-lockup.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dependency-lockup/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dependency-lockup/src/main/java/com/spring/learn/dependency/luckup/ObjrectProviderDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bean/src/main/java/com/spring/learn/bean/definition/BeanDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/bean/src/main/java/com/spring/learn/bean/definition/BeanDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -66,7 +69,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="go.import.settings.migrated" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/bean/src/main/resources" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/dependency-injection/src/main/resources/META-INFO" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Project" />
@@ -76,11 +79,12 @@
     <property name="settings.editor.splitter.proportion" value="0.28303748" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/dependency-injection/src/main/resources/META-INFO" />
+      <recent name="$PROJECT_DIR$/bean/src/main/resources" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/bean/src/main/resources/META-INF" />
-    </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/bean/src/main/resources" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -95,7 +99,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.BeanGCDemo">
+  <component name="RunManager" selected="Application.XmlSetterInjectionDemo">
     <configuration name="BeanGCDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.spring.learn.bean.definition.BeanGCDemo" />
       <module name="bean" />
@@ -135,12 +139,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="IocContainerByApplicationContext" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.spring.learn.ioc.container.IocContainerByApplicationContext" />
-      <module name="ioc-overview" />
+    <configuration name="ObjrectProviderDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.spring.learn.dependency.luckup.ObjrectProviderDemo" />
+      <module name="dependency-lockup" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.spring.learn.ioc.container.*" />
+          <option name="PATTERN" value="com.spring.learn.dependency.luckup.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -148,12 +152,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="IocContainerByBeanFeactory" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.spring.learn.ioc.container.IocContainerByBeanFeactory" />
-      <module name="ioc-overview" />
+    <configuration name="XmlSetterInjectionDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.spring.learn.ioc.injection.XmlSetterInjectionDemo" />
+      <module name="dependency-injection" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.spring.learn.ioc.container.*" />
+          <option name="PATTERN" value="com.spring.learn.ioc.injection.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -163,11 +167,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.XmlSetterInjectionDemo" />
+        <item itemvalue="Application.ObjrectProviderDemo" />
         <item itemvalue="Application.BeanGCDemo" />
         <item itemvalue="Application.BeanInitDemo" />
         <item itemvalue="Application.BeanInstance" />
-        <item itemvalue="Application.IocContainerByApplicationContext" />
-        <item itemvalue="Application.IocContainerByBeanFeactory" />
       </list>
     </recent_temporary>
   </component>
@@ -181,7 +185,11 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1650354781469</updated>
-      <workItem from="1650354782732" duration="23102000" />
+      <workItem from="1650354782732" duration="25898000" />
+      <workItem from="1650863858823" duration="3925000" />
+      <workItem from="1651058678018" duration="14062000" />
+      <workItem from="1664160116264" duration="1858000" />
+      <workItem from="1664603613542" duration="27000" />
     </task>
     <task id="LOCAL-00001" summary="init spring-learn">
       <created>1650356299616</created>
@@ -197,7 +205,14 @@
       <option name="project" value="LOCAL" />
       <updated>1650545671008</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="spring-learn bean 实例、初始化、销毁、回收">
+      <created>1650793876679</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1650793876679</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -208,7 +223,9 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>
@@ -217,6 +234,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="init spring-learn" />
     <MESSAGE value="spring-learn bean" />
-    <option name="LAST_COMMIT_MESSAGE" value="spring-learn bean" />
+    <MESSAGE value="spring-learn bean 实例、初始化、销毁、回收" />
+    <option name="LAST_COMMIT_MESSAGE" value="spring-learn bean 实例、初始化、销毁、回收" />
   </component>
 </project>

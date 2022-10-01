@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+         http://www.springframework.org/schema/beans/spring-beans-3.0.xsd">
+
+
+    <!--    方式一：通过静态方法方实例化bean-->
+    <bean id="beanDemo" name="#beanDemo" class="com.spring.learn.bean.definition.BeanDemo"
+          factory-method="newInstance" init-method="newInstance" />
+
+    <!--    方式二：通过工厂方法方实例化bean-->
+    <bean id="beanDemoFeactory" class="com.spring.learn.bean.definition.factory.BeanDemoFeactory"/>
+    <bean id="demoFactory" name="beanDemo2" factory-bean="beanDemoFeactory" factory-method="createBeanDemo"/>
+
+
+    <!--    方式二：通过FactoryBean接口方实例化bean-->
+    <bean id="beanDemoFeactoryBean" name="beanDemo3"
+          class="com.spring.learn.bean.definition.factory.BeanDemoFactoryBean"/>
+
+
+</beans>
